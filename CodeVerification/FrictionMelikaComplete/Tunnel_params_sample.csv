@@ -1,0 +1,13 @@
+Straight,Straight,Contraction,Contraction,Bend,Bend,Bend,Adapter,Adapter,Mesh,Mesh,Honeycomb,Honeycomb,Intake,Remerge,Dynamometer
+pipe,ducted,pipe,ducted,pipe,ducted,arbitrary,C2R,R2C,pipe,ducted,pipe,ducted,intercept (distance from pump),merger (distance from pump of merger),Sphere dia
+length,length,length,length,0,0,0,length,length,length,length,length,length,length,length,length
+Inlet diameter,Height in,Inlet diameter,Height in,Inlet diameter,Height in,Inlet diameter,Inlet diameter,Height in,Inlet diameter,Height in,Inlet diameter,Height in,Inlet diameter,Inlet diameter,Height in
+Outlet diameter,Height out,Outlet diameter,Height out,0,0,Intake angle(degrees),Height out,Outlet dia,0,0,0,0,0,0,0
+0,Width in,0,Width in,0,Width in,0,0,Width in,0,Width in,0,Width in,0,0,Width in
+0,Width out,0,Width out,0,0,0,Width out,0,0,0,0,0,0,0,0
+Inlet datum,Inlet datum,Inlet datum,Inlet datum,Inlet datum,Inlet datum,Inlet datum,Inlet datum,Inlet datum,Inlet datum,Inlet datum,Inlet datum,Inlet datum,Inlet datum,Inlet datum,Inlet datum
+Outlet datum,Outlet datum,Outlet datum,Outlet datum,Outlet datum,Outlet datum,Outlet datum,Outlet datum,Outlet datum,Outlet datum,Outlet datum,Outlet datum,Outlet datum,Outlet datum,Outlet datum,Outlet datum
+0,0,0,0,0,0,R0,0,0,Rod dia,Rod dia,Rod dia,Rod dia,Divergence angle (from centreline),Convergence angle (from centreline) (Always 30),0
+0,0,0,0,0,0,0,0,0,Mesh width,Mesh width,Mesh width,Mesh width,0,0,0
+Inlet nonuniformity length,Inlet nonuniformity length,Inlet nonuniformity length,Inlet nonuniformity length,Corner Modification,Corner Modification,0,Inlet nonuniformity length,Inlet nonuniformity length,0,0,cell length,cell length,0,0,0
+,,,,,,,,,,,Inlet Length scale,Inlet Length scale,,,

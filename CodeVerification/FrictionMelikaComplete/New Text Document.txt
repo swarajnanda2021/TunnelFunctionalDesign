@@ -1,0 +1,8 @@
+set terminal epslatex size 3.5,2.62 standalone color colortext
+set output 'Melika.tex'
+
+set border linewidth 2
+set style line 1 linecolor rgb '#0060ad' linetype 1 linewidth 5
+set style line 2 linecolor rgb '#dd181f' linetype 1 linewidth 5
+set tics scale 1.25
+
