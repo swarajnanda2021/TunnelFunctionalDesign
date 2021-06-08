@@ -1,0 +1,34 @@
+Straight,Adapter,Bend,Separator,Bend,Straight,Bend,Honeycomb,Straight,ContractionSingle,Dynamometer,ContractionSingle,Straight,Straight,Straight,Straight,Bend,Adapter,Straight,Bend
+pipe,C2R,ducted,ducted,ducted,ducted,ducted,ducted,ducted,ducted,ducted,ducted,ducted,ducted,ducted,ductedProtuberance,ducted,R2C,pipe,arbitrary
+ldr,lsa,1+r,Lseparator,1+r,l2,1+r,Lhoneycomb,Lsettling,Lcontraction,Ldynamometer,Lcontraction2,2.13,Lmaindiffuser2,lmd,L_KnifeCasing,1+r,lsa,ldr + ladj,pi*(0.7-(Dpump/2))
+Dpump,Dpump,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.3,0.3,0.5,0.5,0.5,0.5,Dpump,Dpump
+Dpump,0.5,0,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.3,0.3,0.5,0.5,0.5,0.5,Dpump,Dpump,pi
+0,0,1.5,1.5,1.5,1.5,1.5,1.5,1.5,1.5,0.5,0.5,0.3,0.3,0.5,Wexpansion,Wexpansion,Wexpansion,0,0.7-(Dpump/2)
+0,1.5,0,1.5,1.5,1.5,1.5,1.5,1.5,0.5,0.5,0.3,0.3,0.5,Wexpansion,Wexpansion,Wexpansion,0,0,0
+Hmin+0.5+r+ladj+lsa+ldr,Hmin + 0.25+(2*r)+l2+0.5+r+lsa,Hmin + 0.25+(2*r)+l2+0.5+r,Hmin + 0.25+(2*r)+l2+0.25,Hmin + 0.25+(2*r)+l2+0.25,Hmin + 0.25+(2*r)+l2,Hmin + 0.25+r,Hmin,Hmin,Hmin,Hmin,Hmin,Hmin,Hmin,Hmin,Hmin,Hmin,Hmin+0.5+r,Hmin+0.5+r+lsa,Hmin+0.5+r+ladj+lsa+ldr+(lgap/2)+(Dpump/2)
+Hmin + 0.25+(2*r)+l2+0.5+r+lsa,Hmin + 0.25+(2*r)+l2+0.5+r,Hmin + 0.25+(2*r)+l2+0.25,Hmin + 0.25+(2*r)+l2+0.25,Hmin + 0.25+(2*r)+l2,Hmin + 0.25+r,Hmin,Hmin,Hmin,Hmin,Hmin,Hmin,Hmin,Hmin,Hmin,Hmin,Hmin+0.5+r,Hmin+0.5+r+lsa,Hmin+0.5+r+ladj+lsa+ldr,Hmin+0.5+r+ladj+lsa+ldr
+0,0,0,nBanks,0,0,0,0.005,0,0,0.1,0,0,0,0,alpha_opening,0,0,0,0
+0,0,0,nPlates,0,0,0,MeshWidthHoneycomb,0,0,0,0,0,0,0,l_vent,0,0,0,0
+0,0,thin_rounded,nPlatesFunctional,thin_rounded,0,thin_rounded,CellLengthHoneycomb,0,0,0,0,0,0,0,0,thin_rounded,0,0,0
+0,0,0,0,0,0,0,LinletHoneycomb,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+Bend,Straight,Bend,Adapter,Straight,Straight,Bend,Honeycomb,Straight,ContractionSingle,Straight,Adapter,Bend,Bend,Straight,Bend,Straight,,,
+arbitrary,pipe,arbitrary,C2R,dissolutionBox,ducted,ducted,ducted,ducted,ducted,ducted,R2C,arbitrary,arbitrary,pipe,arbitrary,pipe,,,
+RT3*betaangle,(Lpumpleft/cos(betaangle)) - RT4,RT4*pi/2,Insertlength,Lseparator,Insertlength + abs(RT4 - RT5),HeightSec/2 + WidthSec/2,Lhoneycomb,Lsettling,Lcontraction,Lts,Lmaindiffuser,RT1*pi/2,RT1*thetaangle,(Hmax - (Hmin + RT1*sin(thetaangle) + RT1) - (RT2 * (1 - cos(pi/2 - thetaangle))))/cos(thetaangle),RT2*(pi/2 - thetaangle),Lpump,,,
+Dpump,Dpump,SepIn,SepIn,SepIn,HeightSec,HeightSec,HeightSec,HeightSec,HeightSec,Hts,Hts,MainDiffOut,MainDiffOut,MainDiffOut,Dpump,Dpump,,,
+betaangle,SepIn,pi/2,SepIn,HeightSec,HeightSec,0,HeightSec,HeightSec,Hts,Hts,MainDiffOut,pi/2,thetaangle,Dpump,(pi/2 - thetaangle),Dpump,,,
+RT3,0,RT4,0,HeightSep,WidthSec,SepOut,SepOut,SepOut,SepOut,Hts,Hts,RT1,RT1,0,RT2,0,,,
+0,0,0,WidthSep,WidthSep,HeightSec,0,SepOut,SepOut,Hts,Hts,0,0,0,0,0,0,,,
+Hmax,Hmax - (RT3*(1-cos(betaangle))),(Hmin + (SepIn+SepOut)/2 + (RT4*sin(betaangle))),(Hmin + (SepIn+SepOut)/2) , (Hmin + (SepIn+SepOut)/2),Hmin,Hmin,Hmin,Hmin,Hmin,Hmin,Hmin,Hmin,Hmin + RT1 ,Hmin + (RT1 * (1+ sin(thetaangle))),Hmax - (RT2*(1 - cos(pi/2 - thetaangle))),Hmax,,,
+Hmax - (RT3*(1-cos(betaangle))),(Hmin + (SepIn+SepOut)/2 + (RT4*sin(betaangle))),(Hmin + (SepIn+SepOut)/2) ,(Hmin + (SepIn+SepOut)/2) ,Hmin,Hmin,Hmin,Hmin,Hmin,Hmin,Hmin,Hmin,Hmin + RT1 ,Hmin + (RT1 * (1+ sin(thetaangle))),Hmax - (RT2*(1 - cos(pi/2 - thetaangle))),Hmax,Hmax,,,
+0,0,0,0,WidthSec,0,0,0.005,0,CR1x,0,0,0,0,0,0,0,,,
+0,0,0,0,0,0,0,MeshWidthHoneycomb,0,CR1y,0,0,0,0,0,0,0,,,
+0,0,0,0,0,0,thin_rounded,CellLengthHoneycomb,0,CR2,0,0,0,0,0,0,0,,,
+0,0,0,0,0,0,0,LinletHoneycomb,0,CStage1Length,0,0,0,0,0,0,0,,,
+0,0,0,0,0,0,0,0,0,CStage2Length,0,0,0,0,0,0,0,,,

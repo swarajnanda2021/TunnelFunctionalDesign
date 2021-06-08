@@ -1,0 +1,14 @@
+Lunchbox,Honeycomb,Mesh,ContractionSingle,Straight,Straight ,Lunchbox
+inlet,pipe,pipe,pipe,pipe,pipe,outlet
+HoseLength,0.075,0.075,0.12,100*Dpipe,Buffer,HoseLength
+DiaHose,sqrt(CRpipe*(Dpipe^2)),sqrt(CRpipe*(Dpipe^2)),sqrt(CRpipe*(Dpipe^2)),Dpipe,Dpipe,DiaHose
+lunchboxwidth,0,0,Dpipe,Dpipe,Dpipe,lunchboxwidth
+sqrt(CRpipe*(Dpipe^2)),0,0,0,0,0,Dpipe
+90,0,0,0,0,0,90
+Hmin,Hmin,Hmin,Hmin,Hmin,Hmin,Hmin
+Hmin,Hmin,Hmin,Hmin,Hmin,Hmin,Hmin
+0.001,0.15,0.0002,0,0,0,0
+0.005,0.001,0.0007,0,0,0,0
+PipeIntercept,0.02,0,0,0,0,PipeRejoin
+0,0.002,0,0,0,0,0
+0,0,0,0,0,0,0
