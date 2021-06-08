@@ -1,0 +1,11 @@
+# Hykat and predicted head loss contribution (in m)
+# Component	Published	Calculated
+TestSection	0.310		0.4409		
+MainDiffuser	0.727		0.5011		
+1stElbow	0.178		0.1579
+DowncomerDiff	0.019		0.0204
+2ndElbow	0.132		0.4055
+PumpDiffuser	0.065		0.0243
+3rd&4thElbow	0.118		0.1038
+TurbMgmt	0.549		0.6311
+Contraction	0.008		0.00063
