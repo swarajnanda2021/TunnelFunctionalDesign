@@ -1,0 +1,5 @@
+# Diameter of bubble[m]	Time to complete dissolution[sec]
+0.5e-3	3110	
+1e-4	126.5
+1e-5	1.25
+1e-6	0.0125
